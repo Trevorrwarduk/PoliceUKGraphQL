@@ -1,0 +1,27 @@
+{
+  "name": "policeukgraphql",
+  "version": "0.0.1",
+  "description": "A graphQL server into the UK Police Open Data API's",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trevorrwarduk/PoliceUKGraphQL.git"
+  },
+  "keywords": [
+    "graphql",
+    "server",
+    "PoliceUK"
+  ],
+  "author": "Trevor Ward <untward@gmail.com> (http://www.untward.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Trevorrwarduk/PoliceUKGraphQL/issues"
+  },
+  "homepage": "https://github.com/Trevorrwarduk/PoliceUKGraphQL#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.3.6"
+  }
+}
