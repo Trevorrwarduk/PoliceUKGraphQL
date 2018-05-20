@@ -38,7 +38,7 @@ const resolvers = {
     },
     force_neighbourhood: (parent, args, context) => {
       const { id, forceID } = args;
-      return fetch(`${policeURL}/api/${forceID}/${id}`)
+      return fetch(`${policeURL}/${forceID}/${id}`)
         .then(res => res.json())
         .catch(err => {
           return "ERROR";
@@ -46,7 +46,7 @@ const resolvers = {
     },
     force_neighbourhood_boundary: (parent, args, context) => {
       const { id, forceID } = args;
-      return fetch(`${policeURL}/api/${forceID}/${id}/boundary`)
+      return fetch(`${policeURL}/${forceID}/${id}/boundary`)
         .then(res => res.json())
         .catch(err => {
           return "ERROR";
