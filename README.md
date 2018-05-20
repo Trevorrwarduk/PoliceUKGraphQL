@@ -2,7 +2,7 @@
 
 The project uses the open Source Apollo GraphQL Server and creates a GraphQL interface into The UK's Police Forces Open Data.
 
-The project is Open Source and has a sister Project for a ReactJS Application and Apollo GraphQL client
+The project is Open Source and has a sister Project of a ReactJS Application and Apollo GraphQL client
 
 ## Police Api Documentation
 
